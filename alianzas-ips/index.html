@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Propuesta de servicios clínicos y alianzas institucionales con IPS.">
+  <title>Alianzas con IPS | Dra. Ana María Granados López</title>
+  <link rel="icon" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="../app.js" defer></script>
+</head>
+<body class="alliances-page" data-page="alliances" data-asset-base="../assets">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="alliances-header">
+    <nav class="alliances-nav" aria-label="Navegación">
+      <a class="brand" href="../index.html" aria-label="Volver al inicio">
+        <span class="brand-mark" aria-hidden="true"><img src="../assets/spine-mark.svg" alt=""></span>
+        <span class="brand-copy"><strong>Ana María Granados López</strong><small>Servicios institucionales</small></span>
+      </a>
+      <a class="alliances-back" href="../index.html">← Volver al sitio</a>
+    </nav>
+  </header>
+
+  <main class="alliances-main" id="contenido">
+    <section class="alliances-hero" aria-labelledby="alliances-title">
+      <p class="eyebrow eyebrow-light"><span class="icon-glyph">◉</span> Alianzas con IPS</p>
+      <h1 id="alliances-title">Una propuesta clínica adaptada a cada IPS.</h1>
+      <p>Cuéntanos qué necesita la institución. La propuesta puede cubrir prestación profesional, estudios, seguimiento funcional o una operación integral dirigida por Ana.</p>
+      <div class="alliance-points">
+        <div><span class="icon-glyph" aria-hidden="true">✓</span><p><strong>Alcance contractual definido</strong><small>Servicios, responsables, tiempos y entregables acordados con la IPS.</small></p></div>
+        <div><span class="icon-glyph" aria-hidden="true">▤</span><p><strong>Gobierno de la información</strong><small>Accesos, custodia y separación de datos definidos por contrato.</small></p></div>
+        <div><span class="icon-glyph" aria-hidden="true">▥</span><p><strong>Seguimiento con indicadores</strong><small>Volumen, oportunidad, adherencia y evolución según el modelo contratado.</small></p></div>
+      </div>
+    </section>
+
+    <section class="alliance-form-wrap" aria-labelledby="form-title">
+      <small>Solicitud institucional</small>
+      <h2 id="form-title">Preparemos la conversación.</h2>
+      <p>Completa los datos básicos. Al enviar, se abrirá el programa de correo del dispositivo con la solicitud lista para enviar a Ana.</p>
+
+      <form class="alliance-form" data-alliance-form>
+        <label><span>Institución *</span><input name="institution" type="text" autocomplete="organization" required></label>
+        <label><span>Nombre de contacto *</span><input name="contact" type="text" autocomplete="name" required></label>
+        <label><span>Cargo *</span><input name="role" type="text" autocomplete="organization-title" required></label>
+        <label><span>Correo institucional *</span><input name="email" type="email" autocomplete="email" required></label>
+        <label class="full-field"><span>Teléfono</span><input name="phone" type="tel" autocomplete="tel"></label>
+
+        <fieldset class="services-fieldset">
+          <legend>Servicios de interés</legend>
+          <div class="services-options">
+            <label><input name="services" type="checkbox" value="Consulta especializada en fisiatría"><span>Consulta especializada en fisiatría</span></label>
+            <label><input name="services" type="checkbox" value="Electromiografía"><span>Electromiografía</span></label>
+            <label><input name="services" type="checkbox" value="Neuroconducción"><span>Neuroconducción</span></label>
+            <label><input name="services" type="checkbox" value="Potenciales evocados"><span>Potenciales evocados</span></label>
+            <label><input name="services" type="checkbox" value="Valoración de prótesis y órtesis"><span>Valoración de prótesis y órtesis</span></label>
+            <label><input name="services" type="checkbox" value="Seguimiento remoto con fisioterapia"><span>Seguimiento remoto con fisioterapia</span></label>
+            <label><input name="services" type="checkbox" value="Indicadores e informes institucionales"><span>Indicadores e informes institucionales</span></label>
+          </div>
+        </fieldset>
+
+        <label class="full-field"><span>Necesidad de la institución *</span><textarea name="message" required placeholder="Cuéntanos brevemente el alcance, las sedes o la población que desean atender."></textarea></label>
+        <label class="alliance-consent"><input type="checkbox" required><span>Autorizo el contacto para responder esta solicitud institucional. No incluiré información clínica ni datos sensibles de pacientes.</span></label>
+        <div class="alliance-submit-row">
+          <p>La solicitud se prepara para <strong>granados031981@gmail.com</strong>. El envío final se realiza desde tu programa de correo.</p>
+          <button class="button button-primary" type="submit">Preparar y enviar solicitud →</button>
+        </div>
+        <div class="mail-success" data-alliance-success hidden>La solicitud está lista. Si tu programa de correo no se abrió, escribe directamente a granados031981@gmail.com.</div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

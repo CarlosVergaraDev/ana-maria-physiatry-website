@@ -1,0 +1,23 @@
+WEB DE ANA MARÍA — VERSIÓN HTML, CSS Y JAVASCRIPT
+
+Cómo abrirla
+1. Descomprime el archivo ZIP completo.
+2. Entra en la carpeta Ana_Maria_Fisiatria_HTML.
+3. Abre index.html con Chrome, Edge o Firefox.
+
+No requiere Node.js, Vite, npm ni instalación.
+
+Archivos principales
+- index.html: página principal.
+- alianzas-ips/index.html: formulario para instituciones.
+- styles.css: estilos y diseño responsive.
+- app.js: menús, modales, carruseles, formularios y tema.
+- assets/: imágenes, videos, logos y fuentes locales.
+
+Notas
+- Conserva toda la carpeta junta; no muevas index.html sin sus archivos.
+- WhatsApp y el correo necesitan conexión a Internet y sus aplicaciones correspondientes.
+- El formulario de alianzas prepara un correo dirigido a granados031981@gmail.com; el usuario confirma el envío desde su programa de correo.
+- La agenda, Google Calendar y Wompi son demostrativos. Para crear citas y validar pagos reales se necesita un backend seguro con las credenciales y webhooks de cada servicio.
+
+Si la publicas en GitHub Pages o en otro hosting estático, sube el contenido completo de esta carpeta.
